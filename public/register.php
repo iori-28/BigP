@@ -2,17 +2,18 @@
 <html>
 
 <head>
-    <title>TES Login</title>
+    <title>TES Register</title>
 </head>
 
 <body>
 
-    <h2>TES Login</h2>
+    <h2>TES Register</h2>
 
-    <form action="api/auth.php?action=login" method="POST">
+    <form action="api/auth.php?action=register" method="POST">
+        <input type="text" name="nama" placeholder="Nama" required><br><br>
         <input type="email" name="email" placeholder="Email" required><br><br>
         <input type="password" name="password" placeholder="Password" required><br><br>
-        <button type="submit">Login</button>
+        <button type="submit">Daftar</button>
     </form>
 
 </body>
